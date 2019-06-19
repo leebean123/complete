@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: gs-testing
+
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+
+server:
+  port: 7099
